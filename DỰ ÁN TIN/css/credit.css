@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.letitbe {
+    display: inline-grid;
+    place-items: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    grid-template-rows: max-content;
+    gap: 2%;
+    margin: 0;
+    padding: 0;
+}
+
+.letitbe img {
+    width: 30%;
+    border-style: solid;
+    border: 10%;
+    border-color: white;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("font\FuturaLT-BoldOblique.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.credit {
+    font-family: "Futura";
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
